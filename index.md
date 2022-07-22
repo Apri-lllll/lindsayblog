@@ -24,7 +24,7 @@ I irregularly write blogs on random things that I find interesting. Hope you enj
 
 ### Other
 
-
+[Some Self Reminders on Giving Presentations](https://lindsayqu.github.io/lindsayqu/other/some-self-reminders-on-giving-presentations)
 
 # Contact
 

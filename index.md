@@ -22,6 +22,8 @@ I irregularly write blogs on random things that I find interesting. Hope you enj
 
 ### Music
 
+[Listening to Taylor Swift's *Red*](https://lindsayqu.github.io/lindsayqu/music/listening-to-taylor-swifts-red)
+
 ### Other
 
 [Some Self Reminders on Giving Presentations](https://lindsayqu.github.io/lindsayqu/other/some-self-reminders-on-giving-presentations)

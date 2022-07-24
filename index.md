@@ -14,17 +14,17 @@ I irregularly write blogs on random things that I find interesting. Hope you enj
 
 # Posts
 
-[Papers](###papers) | [Books](###books) | [Music](###music) | [Other](###other) 
+[Papers](#papers) | [Books](#books) | [Music](#music) | [Other](#other) 
 
-### Papers
+### Papers <a name="papers"></a>
 
-### Books
+### Books <a name="books"></a>
 
-### Music
+### Music <a name="music"></a>
 
 [Listening to Taylor Swift's *Red*](https://lindsayqu.github.io/lindsayqu/music/listening-to-taylor-swifts-red)
 
-### Other
+### Other <a name="other"></a>
 
 [Some Self Reminders on Giving Presentations](https://lindsayqu.github.io/lindsayqu/other/some-self-reminders-on-giving-presentations)
 

@@ -14,21 +14,21 @@ Approaching sequence modeling requires models to capture dependencies within seq
 
 ### Attention Mechanism
 
-![image-20220725172002148](images\image-20220725172002148.png)
+![image-20220725172002148](/images/image-20220725172002148.png)
 
 An attention mechanism inputs a query(Q), and a set of key(K) - value(V) pairs to compute a weighted sum of the values. The weight assigned to each value is computed using the query and the key. Different methods for computing weights exist; the Transformer uses the scaled dot-product attention, which is computationally efficient. The equation for scaled dot-product attention is:
 $$
 Attention(Q,K,V)=softmax(\frac{QK^T}{\sqrt{d_k}})V
 $$
-The original dot product is scaled by a factor of $\frac{1}{\sqrt{d_k}}$ to prevent the $softmax$ function from having small gradients when the dot product grows large.
+The original dot product is scaled by a factor of $\frac{1}{\sqrt{d_k}}$ to prevent the *softmax* function from having small gradients when the dot product grows large.
 
-The Transformer uses multi-head attention, which allows the model to learn from different representation subspaces. Multi-head attention is implemented by computing $h$ different linear projections of $Q,K,V$, performing attention on each of set of projections, concatenating the results of attention, then performing a final linear projection. $h$ is a hyperparameter denoting the number of heads.
+The Transformer uses multi-head attention, which allows the model to learn from different representation subspaces. Multi-head attention is implemented by computing *h* different linear projections of *Q, K, V*, performing attention on each of set of projections, concatenating the results of attention, then performing a final linear projection. *h* is a hyperparameter denoting the number of heads.
 
 
 
 ### Model Architecture
 
-![image-20220725114107461](images\image-20220725114107461.png)
+![image-20220725114107461](/images/image-20220725114107461.png)
 
 The Transformer uses the popular encoder-decoder network structure, and the encoder and decoder each consist of numerous stacked layers.
 

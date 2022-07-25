@@ -18,7 +18,7 @@ Approaching sequence modeling requires models to capture dependencies within seq
 
 An attention mechanism inputs a query(Q), and a set of key(K) - value(V) pairs to compute a weighted sum of the values. The weight assigned to each value is computed using the query and the key. Different methods for computing weights exist; the Transformer uses the scaled dot-product attention, which is computationally efficient. The equation for scaled dot-product attention is:
 
-![image-20220725183625](/image/20220725183625.png)
+![image-20220725183625](/images/20220725183625.png)
 
 The original dot product is scaled to prevent the *softmax* function from having small gradients when the dot product grows large.
 

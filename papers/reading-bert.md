@@ -59,3 +59,9 @@ Compared with GPT, which uses unidirectional standard LM, and ELMo, which concat
 ![image-20220728114518](/images/20220728114518.png)
 
 The effective performance of BERT demonstrates the importance of bi-directionality in pretraining, as well as the possibility of using a unified model for a wide range of downstream tasks.
+
+
+
+### References
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423). In *Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)*, pages 4171–4186, Minneapolis, Minnesota. Association for Computational Linguistics.

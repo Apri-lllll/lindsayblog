@@ -32,6 +32,8 @@ I irregularly write blogs on random things that I find interesting. Hope you enj
 
 2022-07-22	[Some Self Reminders on Giving Presentations](https://lindsayqu.github.io/lindsayqu/other/some-self-reminders-on-giving-presentations)
 
+
+
 # Contact
 
 You can contact me at lindsay2864tt@gmail.com

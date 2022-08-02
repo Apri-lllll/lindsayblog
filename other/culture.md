@@ -64,7 +64,7 @@ Such a natural process can become toxic if individuals continually take norms fo
 
  
 
-##### References
+**References**
 
 Conerly, T., Holmes, K., Tamang, A., Hensley, J., Trost, J., Alcasey, P., &…Jones, F. (2021). *Introduction to sociology 3e*. Housten, TX: OpenStax.
 

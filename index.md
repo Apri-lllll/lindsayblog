@@ -24,7 +24,7 @@ I irregularly write blogs on random things that I find interesting. Hope you enj
 
 ### Books <a name="books"></a>
 
-2022-08-22	[Reading *Hamilton* (The Book)](https://lindsayqu.github.io/lindsayqu/books/reading-hamilton)
+2022-08-02	[Reading *Hamilton* (The Book)](https://lindsayqu.github.io/lindsayqu/books/reading-hamilton)
 
 ### Music <a name="music"></a>
 
@@ -32,7 +32,7 @@ I irregularly write blogs on random things that I find interesting. Hope you enj
 
 ### Other <a name="other"></a>
 
-2022-08-22	[When I Try To Fill Up My Blog With Class Essays](https://lindsayqu.github.io/lindsayqu/other/culture)
+2022-08-02	[When I Try To Fill Up My Blog With Class Essays](https://lindsayqu.github.io/lindsayqu/other/culture)
 
 2022-07-22	[Some Self Reminders on Giving Presentations](https://lindsayqu.github.io/lindsayqu/other/some-self-reminders-on-giving-presentations)
 

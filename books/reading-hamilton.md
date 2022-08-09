@@ -4,7 +4,7 @@
 
 > aka "When I Try To Fill Up My Blog With Class Essays" part 2
 >
-> Here is [part 1](https://lindsayqu.github.io/lindsayqu/other/culture)
+> Here is [part 1](https://lindsay-13.github.io/lindsay/other/culture)
 
 
 

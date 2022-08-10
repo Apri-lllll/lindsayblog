@@ -30,6 +30,8 @@ I irregularly write blogs on random things that I find interesting. Hope you enj
 
 2022-07-23	[Listening to Taylor Swift's *Red*](https://lindsay-13.github.io/lindsay/music/listening-to-taylor-swifts-red)
 
+2022-08-10	[Listening to Lorde's Pure Heroine](https://lindsay-13.github.io/lindsay/music/pure-heroine)
+
 ### Other <a name="other"></a>
 
 2022-08-02	[When I Try To Fill Up My Blog With Class Essays](https://lindsay-13.github.io/lindsay/other/culture)

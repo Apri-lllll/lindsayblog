@@ -18,25 +18,25 @@ I irregularly write blogs on random things that I find interesting. Hope you enj
 
 ### Papers <a name="papers"></a>
 
-2022-07-28	[Reading *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding*](https://lindsay-13.github.io/lindsay/papers/reading-bert)
+2022-07-28	[Reading *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding*](https://apri-lllll.github.io/lindsayblog/papers/reading-bert)
 
-2022-07-25	[Reading *Attention is All You Need*](https://lindsay-13.github.io/lindsay/papers/reading-attention-is-all-you-need)
+2022-07-25	[Reading *Attention is All You Need*](https://apri-lllll.github.io/lindsayblog/papers/reading-attention-is-all-you-need)
 
 ### Books <a name="books"></a>
 
-2022-08-02	[Reading *Hamilton* (The Book)](https://lindsay-13.github.io/lindsay/books/reading-hamilton)
+2022-08-02	[Reading *Hamilton* (The Book)](https://apri-lllll.github.io/lindsayblog/books/reading-hamilton)
 
 ### Music <a name="music"></a>
 
-2022-07-23	[Listening to Taylor Swift's *Red*](https://lindsay-13.github.io/lindsay/music/listening-to-taylor-swifts-red)
+2022-07-23	[Listening to Taylor Swift's *Red*](https://apri-lllll.github.io/lindsayblog/music/listening-to-taylor-swifts-red)
 
-2022-08-10	[Listening to Lorde's Pure Heroine](https://lindsay-13.github.io/lindsay/music/pure-heroine)
+2022-08-10	[Listening to Lorde's Pure Heroine](https://apri-lllll.github.io/lindsayblog/music/pure-heroine)
 
 ### Other <a name="other"></a>
 
-2022-08-02	[When I Try To Fill Up My Blog With Class Essays](https://lindsay-13.github.io/lindsay/other/culture)
+2022-08-02	[When I Try To Fill Up My Blog With Class Essays](https://apri-lllll.github.io/lindsayblog/other/culture)
 
-2022-07-22	[Some Self Reminders on Giving Presentations](https://lindsay-13.github.io/lindsay/other/some-self-reminders-on-giving-presentations)
+2022-07-22	[Some Self Reminders on Giving Presentations](https://apri-lllll.github.io/lindsayblog/other/some-self-reminders-on-giving-presentations)
 
 
 

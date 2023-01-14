@@ -4,11 +4,11 @@
 
 # About Me
 
-Hello~ I am Lindsay, an undergraduate student majoring in Data Science. I am interested in deep learning, especially its applications in educational data mining and natural language processing.
+Hi~ I am Lindsay, an undergraduate student majoring in Data Science. I am interested in deep learning, especially its applications in natural language processing.
 
-My life goals include having two cats (named Pepper and Coconut), going to Coachella, and being able to memorize all the words in *Hamilton*.
+My life goals include having two cats (named Pepper and Coconut), going to Coachella, and seeing *Hamilton* live at Broadway.
 
-I irregularly write blogs on random things that I find interesting. Hope you enjoy reading them~
+I irregularly write posts about random things that I find interesting ; )
 
 
 

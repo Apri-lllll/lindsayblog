@@ -1,4 +1,4 @@
-[About](#about-me) | [Posts](#posts) | [Random](#Random) | [Contact](#contact) 
+[About](#about-me) | [Posts](#posts) | [Random](#random-thoughts) | [Contact](#contact) 
 
 
 

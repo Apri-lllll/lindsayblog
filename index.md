@@ -14,7 +14,7 @@ I irregularly write posts about random things that I find interesting ; )
 
 # Posts
 
-[Papers](#papers) | [Books](#books) | [Music](#music) | [Other](#other) 
+[Papers](#papers) | [Courses](#courses) | [Books & Music](#books) | [Music](#music) | [Other](#other) 
 
 ### Papers <a name="papers"></a>
 
@@ -24,15 +24,17 @@ I irregularly write posts about random things that I find interesting ; )
 
 2022-07-25	[Reading *Attention is All You Need*](https://apri-lllll.github.io/lindsayblog/papers/reading-attention-is-all-you-need)
 
-### Books <a name="books"></a>
+### Courses <a name="courses"></a>
 
-2022-08-02	[Reading *Hamilton* (The Book)](https://apri-lllll.github.io/lindsayblog/books/reading-hamilton)
+2023-01-21	[CMU 10-725 Convex Optimization Notes - 1](https://apri-lllll.github.io/lindsayblog/courses/conv-1)
 
-### Music <a name="music"></a>
+### Books & Music <a name="books"></a>
 
-2022-08-10	[Listening to Lorde's Pure Heroine](https://apri-lllll.github.io/lindsayblog/music/pure-heroine)
+2022-08-10	[Listening to Lorde's Pure Heroine](https://apri-lllll.github.io/lindsayblog/books&music/pure-heroine)
 
-2022-07-23	[Listening to Taylor Swift's *Red*](https://apri-lllll.github.io/lindsayblog/music/listening-to-taylor-swifts-red)
+2022-08-02	[Reading *Hamilton* (The Book)](https://apri-lllll.github.io/lindsayblog/books&music/reading-hamilton)
+
+2022-07-23	[Listening to Taylor Swift's *Red*](https://apri-lllll.github.io/lindsayblog/books&music/listening-to-taylor-swifts-red)
 
 ### Other <a name="other"></a>
 

@@ -14,7 +14,7 @@ I irregularly write posts about random things that I find interesting ; )
 
 # Posts
 
-[Papers](#papers) | [Courses](#courses) | [Books & Music](#books) | [Music](#music) | [Other](#other) 
+[Papers](#papers) | [Courses](#courses) | [Books & Music](#books) | [Other](#other) 
 
 ### Papers <a name="papers"></a>
 
@@ -26,7 +26,7 @@ I irregularly write posts about random things that I find interesting ; )
 
 ### Courses <a name="courses"></a>
 
-2023-01-21	[CMU 10-725 Convex Optimization Notes - 1](https://apri-lllll.github.io/lindsayblog/courses/conv-1)
+2023-01-21	[CMU 10-725 Convex Optimization Notes - 1](https://apri-lllll.github.io/lindsayblog/courses/conv1)
 
 ### Books & Music <a name="books"></a>
 

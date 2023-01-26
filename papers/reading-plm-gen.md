@@ -77,3 +77,77 @@ Standard PLMs mostly use the transformer architecture as the backbone. Single-st
 Aside from basic token embeddings, almost all pretrained models use positional embeddings, since the attention transformation is position-invariant. Most models, such as BERT and GPT, utilize learned absolute positional embeddings, while models such as T5 use relative embeddings. Other auxiliary embeddings can be designed for specific input formats, eg. user embeddings in dialog generation, language embeddings in multi-lingual models.
 
 Other lines of work have focused on developing improved attention modules. Sparse attention increases the efficiency of the model when dealing with long input sequences. For multiple inputs, it is common to separately encode them, then aggregate embeddings through pooling or attention mechanisms.
+
+
+
+### Optimizing PLMs for Text Generation
+
+**Fine-Tuning for Text Generation**
+
+Fine-tuning, which consists of using task-specific data and loss function to further adjust model parameters, is a common method of adapting PLMs for downstream tasks.
+
+However, one drawback of vanilla fine-tuning is the tendency to overfit on small datasets. To mitigate this problem, domain adaptive and task adaptive intermediate fine-tuning has been proposed. DAIFT refers to fine-tuning with data from the required domain, but under a different task. This allows the model to pick up on domain-specific information. On the contrary, in TAIFT, models are tuned on the required task using data from different domains, and learn task-specific knowledge in the process. Both these methods allow a larger set of supervised data to be used.
+
+In addition, multi-task fine-tuning incorporates cross-task knowledge into the PLM. When auxiliary tasks are same as the original task, as in pure multi-task fine-tuning, MTFT alleviates data sparsity. In hybrid MTFT, different tasks are used, which sometimes enhances model performance on the primary task.
+
+Parameter-efficient fine-tuning attempts to downsize the number of learned parameters in the fine-tuning stage. Researchers have introduced adapters, which use feed-forward layers to project PLM layers to low-dimensional vectors, then back to the original size. Fine-tuning only adapter parameters reduces the total number of learned parameters. Other lines of work propose tuning a portion of PLM parameters (eg. cross-attention modules) or distilling the large PLM to several smaller models.
+
+**Prompt Tuning for Text Generation**
+
+Prompt tuning attempts to bridge the gap between pretraining and fine-tuning by reformulating the downstream task using a prompt template. The PLM fills in slots in the template, based on which the final result can be derived. Prompts can be either in cloze or prefix form.
+
+Discrete prompts directly take the form of natural language, and were originally manually designed to describe the desired task (such as in GPT2). Works such as AutoPrompt attempt to overcome the need for manual design. Other approaches towards this goal include paraphrasing, generating using PLMs, and scraping corpuses.
+
+Continuous prompts, on the other hand, are continuous vectors in the embedding space. They do not need to correspond to natural language words, and can have their own learnable parameters. The continuous nature of these prompts means that they can be easily optimized through gradient-descent-based methods. Prefix tuning is one of the pioneering works in this area, and demonstrates the effectiveness of prepending trainable prefixes to original inputs.
+
+**Property Tuning for Text Generation**
+
+(1) Relevance: Relevance refers to whether topical semantics in the output text are highly related to the input, and is especially important in scenarios such as dialog generation. The cross-attention module of most PLMs allows them to link the input and the output. For example, DialoGPT is pretrained on large-scale dialogue sessions, directing the model to generate responses that are relevant to the dialogue history.
+
+(2) Faithfulness: We aim for the output of PLMs to adhere to the information in the input text. This is facilitated by the knowledge and natural language understanding abilities of PLMs. Faithfulness can be enhanced by retrieving salient parts of the source or using auxiliary losses to gauge semantic closeness.
+
+(3) Order-Preservation: In settings such as translation, keeping the order of semantic units consistent is an important concern. Researchers most often use alignment methods, either aligning individual words or mapping all words in the source and target to the same space and aligning the continuous representations.
+
+
+
+### Challenges & Solutions
+
+**Data**
+
+Lack of training data often limits the performance of PLMs on downstream tasks. Solutions include transfer learning (from domains with ample data), data augmentation (through simulated data or permutating original data), and multi-task learning.
+
+Another challenge is preventing models from learning and aggregating biases in training data. It has been found that biases are often captured in word embeddings and attention head. Such biases can be mitigated through swapping gendered terms or masking out names and pronouns during training.
+
+The problem of domain transfer has been addressed in the previous section (DAIFT & TAIFT).
+
+**Model**
+
+The large size of most state-of-the-art PLMs hinders their widespread use in real-life scenarios, so the following approaches towards model compression have been developed. Quantization refers to reducing the number of unique values used to represent weights, and important weights are often left untouched to preserve model performance. Pruning refers to removing less important weights or simplifying entire modules to reduce model size. The final approach is model distillation, where a small PLM can directly learn from the vocabulary distribution produced by a large model.
+
+Model extensions can potentially improve the performance of PLMs for specific tasks. Knowledge-enriched PLMs utilize external knowledge sources to improve the factual information retained by the model. ERNIE, for instance, uses a large-scale knowledge graph. Efficient PLMs, such as CALM, aim at achieving competitive results with less pretraining data and costs.
+
+Finally, to improve robustness to noise, researchers have proposed combining character and word embeddings, as well as using data augmentation to help PLMs generalize to semantic neighborhoods of generation instances.
+
+**Optimization**
+
+Improving the coherence, factual accuracy, and controllability of generated text has been a key point of recent research. For coherence, text planning (planning the knowledge graphs of sentences and documents) and discourse relation modeling have demonstrated promising results. Pointer generator methods (which copy text from input to output), additional evaluation metrics, and correction methods trigger PLMs to better preserve factual information. To increase controllability, works such as PPLM allow the model to condition on extra constraints without requiring further training.
+
+The goal of improving training stability has also been approached through numerous optimization methods. Intermediate fine-tuning is an effective solution that has been discussed in previous sections. The mixout strategy randomly exchanges parameters of two PLMs to constrain the deviation between them. Contrastive learning adds a supervised contrastive term to the loss function, alleviating the unstableness entailed by cross-entropy loss.
+
+
+
+### Evaluation & Resources
+
+The following two tables summarize metrics and datasets commonly used in text generation.
+
+**Metrics**
+
+| Category            | Metrics                     |
+| ------------------- | --------------------------- |
+| N-gram Overlap      | BLEU, ROUGE, METEOR, ChrF++ |
+| Diversity           | Distinct                    |
+| Semantic Similarity | BERTScore                   |
+
+**Datasets**
+
+![0126-1](images\0126-1.png)

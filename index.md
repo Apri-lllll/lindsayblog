@@ -18,6 +18,8 @@ I irregularly write posts about random things that I find interesting ; )
 
 ### Papers <a name="papers"></a>
 
+2023-01-26	[Reading *A Survey of Pretrained Language Models Based Text Generation*](https://apri-lllll.github.io/lindsayblog/papers/reading-plm-gen)
+
 2023-01-15	[Reading Continuous Prompt Learning Papers](https://apri-lllll.github.io/lindsayblog/papers/reading-continuous-prompt)
 
 2022-07-28	[Reading *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding*](https://apri-lllll.github.io/lindsayblog/papers/reading-bert)
